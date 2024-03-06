@@ -1,2 +1,8 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(—½œà8–›˜˜á1
+Ž
+java:S1130
+"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Þýÿÿÿÿ8‘ÕÍ™á1
+Q
+java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ8”ÕÍ™á1
+P
+java:S1128".Remove this unused import 'java.time.Instant'.(Â‚éñÿÿÿÿÿ8”ÕÍ™á1

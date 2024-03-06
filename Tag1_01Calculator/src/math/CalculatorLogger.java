@@ -6,7 +6,7 @@ public class CalculatorLogger implements Calculator{
     // 1000
     private final Calculator calculator;
 
-    public CalculatorLogger(final Calculator calculator) {
+    protected CalculatorLogger(final Calculator calculator) {
         this.calculator = calculator;
     }
 

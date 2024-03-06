@@ -15,3 +15,5 @@ N
 src/math/CalculatorSecure.java,b\b\bb463cf3c4787ee4731ff51fd8b1a135910cfc5f
 Q
 !src/math/CalculatorBenchmark.java,e\f\ef7e585b3668398c8a41fb07bbfd7836b190ffea
+O
+src/math/CalculatorFactory.java,d\4\d4aa3b7bd1d4a3224b77309e77a5d6d12dcff724
