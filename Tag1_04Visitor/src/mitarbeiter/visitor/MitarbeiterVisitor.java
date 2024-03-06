@@ -7,4 +7,7 @@ public interface MitarbeiterVisitor {
 
     void visit (LohnEmpfaenger lohnEmpfaenger);
     void visit (GehaltsEmpfaenger gehaltsEmpfaenger);
+
+    void init ();
+    void dispose();
 }

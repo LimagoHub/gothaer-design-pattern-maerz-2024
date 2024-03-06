@@ -1,0 +1,7 @@
+
+V
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(¯£¦‰8Ò´ á1
+L	java:S106"+Replace this use of System.out by a logger.(»£¢µûÿÿÿÿ8Ô´ á1
+L	java:S106"+Replace this use of System.out by a logger.(‚ŞÏ¥ıÿÿÿÿ8Õ´ á1
+Z
+java:S1128"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8ãş á1

@@ -4,13 +4,13 @@ import mitarbeiter.GehaltsEmpfaenger;
 import mitarbeiter.LohnEmpfaenger;
 
 public abstract class AbstractMitarbeiterVisitor implements MitarbeiterVisitor{
-    @Override
-    public void visit(final LohnEmpfaenger lohnEmpfaenger) {
-        // Ok
+
+
+    public void init() {
+        // ok
     }
 
-    @Override
-    public void visit(final GehaltsEmpfaenger gehaltsEmpfaenger) {
-        // Ok
+    public void dispose() {
+        // NOP
     }
 }

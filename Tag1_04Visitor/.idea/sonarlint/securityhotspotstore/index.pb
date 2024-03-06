@@ -19,3 +19,7 @@ Y
 )src/mitarbeiter/visitor/PrintVisitor.java,6\2\6271d1e197b7dc962b6e454ad13e8e3d4475ab2e
 d
 4src/mitarbeiter/visitor/ResetArbeitszeitVisitor.java,1\8\1869e51437bc1999bdd6a3dcc50a01bc287a4be1
+]
+-src/mitarbeiter/visitor/StatistikVisitor.java,9\4\94862a5584dfc62f3b8df038f2002f850e3157dd
+k
+;src/mitarbeiter/visitor/AbstractMitarbeiterFullVisitor.java,c\5\c58f17d7cd962de2edbde9a3f59b85e344be43ab
