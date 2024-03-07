@@ -15,3 +15,7 @@ M
 src/command/PrintCommand.java,d\0\d03e767e29aa9f24da6998b134f209afe521da5d
 O
 src/command/CommandFactory.java,b\9\b98004e6f0b472b10d6a738d35f0e7a06c281063
+M
+src/command/ClearCommand.java,6\d\6db4ce21354b2d98332444ada56d75e4699bc954
+O
+src/command/CommandHistory.java,e\3\e396c711016a4e65d87902b33ee978bb8da0fcf9
