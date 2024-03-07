@@ -13,3 +13,5 @@ H
 src/business/StateB.java,6\c\6c69213b9aafa51830991e872d759e4d0f01cfb2
 B
 src/main/Main.java,f\e\fe03b4fd3afe162c6e01309b98a22588e093d274
+S
+#src/business/TrafficLightState.java,6\6\66b00703f713ac2ef76f6de2f145e50c048ba096

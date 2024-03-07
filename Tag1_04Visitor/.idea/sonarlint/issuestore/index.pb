@@ -1,6 +1,4 @@
 
-=
-src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
 X
 (src/mitarbeiter/AbstractMitarbeiter.java,2\a\2a121902b412fb9c04ebda29f1450e64ba3eb7ac
 V
