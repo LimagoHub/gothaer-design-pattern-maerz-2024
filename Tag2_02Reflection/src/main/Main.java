@@ -51,7 +51,7 @@ public class Main {
 
          */
         BeanCreator beanCreator = new BeanCreator();
-        Object object = beanCreator.createAndFillBean("beans.Person");
+        Object object = beanCreator.createAndFillBean("bean.Person");
         System.out.println(object);
 
     }

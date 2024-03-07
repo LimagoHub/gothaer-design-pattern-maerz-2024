@@ -1,5 +1,2 @@
 
-_
-java:S1172"=Remove this unused method parameter "fullQualifiedClassName".(Ï±§Ìùÿÿÿÿ8Âß”Äá1
-H
-java:S1068	"+Remove this unused "scanner" private field.(©ñ®¯8Âß”Äá1
+L	java:S106"+Replace this use of System.out by a logger.(„ªÊ“ıÿÿÿÿ8€­ÍÄá1
