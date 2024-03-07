@@ -1,5 +1,7 @@
 package math;
 
+import common.LoggerProxy;
+
 public class CalculatorFactory {
 
 
@@ -36,7 +38,9 @@ public class CalculatorFactory {
         Calculator calculator = new CalculatorImpl();
 
         // 2000      2000
-        if(logger) calculator = new CalculatorLogger(calculator);
+        //if(logger) calculator = new CalculatorLogger(calculator);
+        if(logger) calculator = (Calculator) LoggerProxy.newInstance(calculator);
+
 
         // 3000      3000
         if(secure) calculator = new CalculatorSecure(calculator);

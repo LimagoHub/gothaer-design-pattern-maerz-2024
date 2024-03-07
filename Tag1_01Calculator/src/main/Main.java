@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws Exception{
 
 
-        CalculatorFactory.setLogger(false);
+        CalculatorFactory.setLogger(true);
         CalculatorFactory.setBenchmark(false);
 
         Calculator calculator = CalculatorFactory.create();

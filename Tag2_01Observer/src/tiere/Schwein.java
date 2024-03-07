@@ -1,5 +1,8 @@
 package tiere;
 
+import commonevents.PropertyChangedEvent;
+import commonevents.PropertyChangedListener;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,6 +11,7 @@ public class Schwein extends Tier{
     private static final int MAX_WEIGHT = 20;
 
     private List<PigTooFatListener> pigTooFatListeners = new ArrayList<>();
+    private List<PropertyChangedListener> propertyChangedListeners = new ArrayList<>();
 
 
     public void addPigTooFatListener(final PigTooFatListener pigTooFatListener) {
@@ -18,8 +22,21 @@ public class Schwein extends Tier{
         return pigTooFatListeners.remove(pigTooFatListener);
     }
 
+    public boolean removePropertyChangedListener(final PropertyChangedListener propertyChangedListener) {
+        return propertyChangedListeners.remove(propertyChangedListener);
+    }
+
+    public void addPropertyChangedListener(final PropertyChangedListener propertyChangedListener) {
+        propertyChangedListeners.add(propertyChangedListener);
+    }
+
+
+
     private void firePigTooFatEvent() {
         pigTooFatListeners.forEach(listener->listener.pigTooFat(this));
+    }
+    private void fireProperChangedEvent(PropertyChangedEvent event) {
+        propertyChangedListeners.forEach(listerner->listerner.propertyChanged(event));
     }
 
     private String name;
@@ -35,7 +52,9 @@ public class Schwein extends Tier{
     }
 
     public void setName(final String name) {
+        PropertyChangedEvent event = new PropertyChangedEvent(this, "name", this.name, name);
         this.name = name;
+        fireProperChangedEvent(event);
     }
 
     public int getGewicht() {
@@ -43,7 +62,9 @@ public class Schwein extends Tier{
     }
 
     private void setGewicht(final int gewicht) {
+        PropertyChangedEvent event = new PropertyChangedEvent(this, "gewicht", this.gewicht, gewicht);
         this.gewicht = gewicht;
+        fireProperChangedEvent(event);
         if(gewicht > MAX_WEIGHT) firePigTooFatEvent();
     }
 

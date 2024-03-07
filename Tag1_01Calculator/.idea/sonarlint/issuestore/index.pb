@@ -1,6 +1,4 @@
 
-=
-src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
 B
 src/main/Main.java,f\e\fe03b4fd3afe162c6e01309b98a22588e093d274
 H
@@ -17,3 +15,5 @@ Q
 !src/math/CalculatorBenchmark.java,e\f\ef7e585b3668398c8a41fb07bbfd7836b190ffea
 O
 src/math/CalculatorFactory.java,d\4\d4aa3b7bd1d4a3224b77309e77a5d6d12dcff724
+K
+src/common/LoggerProxy.java,f\1\f13af271cd7bc7e8232d5154dcce77c16e9525e4
