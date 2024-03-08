@@ -13,7 +13,7 @@ public class Main {
         piggy.fressen();
         System.out.println(piggy);
 
-        
+
         piggy.setMemento(memento);
         System.out.println(piggy);
     }

@@ -1,0 +1,14 @@
+
+X
+java:S1854"6Remove this useless assignment to local variable "k3".(¶ΩΏϋÿÿÿÿ8³ƒ†κα1
+X
+java:S1854"6Remove this useless assignment to local variable "k2".(κ―…Òώÿÿÿÿ8΄ƒ†κα1
+R
+java:S1854"6Remove this useless assignment to local variable "k1".(•n8µƒ†κα1
+L	java:S106"+Replace this use of System.out by a logger.(ϊυ–αωÿÿÿÿ8Όƒ†κα1
+C
+java:S1481"'Remove this unused "k1" local variable.(•n8Ύƒ†κα1
+I
+java:S1481"'Remove this unused "k2" local variable.(κ―…Òώÿÿÿÿ8Ύƒ†κα1
+I
+java:S1481"'Remove this unused "k3" local variable.(¶ΩΏϋÿÿÿÿ8Ώƒ†κα1
