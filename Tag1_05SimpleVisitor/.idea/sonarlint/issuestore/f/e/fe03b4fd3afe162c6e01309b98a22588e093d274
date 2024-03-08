@@ -1,7 +1,7 @@
 
-V
-java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(¯£¦‰8Ò´ á1
-L	java:S106"+Replace this use of System.out by a logger.(»£¢µûÿÿÿÿ8Ô´ á1
-L	java:S106"+Replace this use of System.out by a logger.(‚ŞÏ¥ıÿÿÿÿ8Õ´ á1
-Z
-java:S1128"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8ãş á1
+|
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(¯£¦‰8Ò´ á1J$afac37bd-9a06-4e02-aee5-7ccca99f52e7
+r	java:S106"+Replace this use of System.out by a logger.(»£¢µûÿÿÿÿ8Ô´ á1J$7137bed0-2516-4cbf-ba11-ce9262fe039e
+r	java:S106"+Replace this use of System.out by a logger.(‚ŞÏ¥ıÿÿÿÿ8Õ´ á1J$7a5442ec-572c-4ad6-b72f-3741dd2f141a
+€
+java:S1128"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8ãş á1J$b21a0000-7683-4752-b87b-de960bde6efd

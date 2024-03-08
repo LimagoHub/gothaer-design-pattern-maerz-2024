@@ -1,5 +1,7 @@
 package bank;
 
+import bank.visitor.BankVisitor;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
@@ -62,5 +64,13 @@ public abstract class AbstractBankNode implements Iterable<AbstractBankNode>{
         for(var child: getChildren()) {
             child.iteratorImpl(liste);
         }
+    }
+
+    public abstract void accept(BankVisitor visitor);
+
+    public void iterate(BankVisitor visitor) {
+        visitor.init();
+        iterator().forEachRemaining(item->item.accept(visitor));
+        visitor.dispose();
     }
 }

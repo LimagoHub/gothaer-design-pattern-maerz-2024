@@ -1,8 +1,8 @@
 
-	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΆεΖΉÿÿÿÿÿ8Η¦μα1J$4776c43f-0de6-4717-b460-6e859c009d43
-	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ΑμΖωÿÿÿÿ8Μ‰¦μα1J$03744c70-510b-4ae1-882b-b54a78ce794c
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(φΦ8Ν‰¦μα1J$411c7c2a-1127-49ee-8688-4ded7d827299
-	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ύΏπϊÿÿÿÿ8Ν‰¦μα1J$6f4c16e6-7678-4d08-b229-5e27633ca1b8
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(ÒΙΝÿÿÿÿÿ8Ύ‘¦μα1J$aac2d260-c750-4108-a393-6070e6b4c4a9
-X	java:S125!"<This block of commented-out lines of code should be removed.(‚η8¦Ρ¨μα1
-m	java:S106'"+Replace this use of System.out by a logger.(τΗέΈ8Α‘¦μα1J$30fe335a-65e4-4bc2-8f6c-b8d4fe50eb39
+	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΆεΖΉÿÿÿÿÿ8Η¦μα1J$064ffdfd-081c-4ff6-bae6-f3fe1a7c7faa
+	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ΑμΖωÿÿÿÿ8Μ‰¦μα1J$dbf85159-9132-4277-90e9-673e2345fd98
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(φΦ8Ν‰¦μα1J$9a17e031-8d6c-48a7-8e09-fe49e6ddbb26
+	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ύΏπϊÿÿÿÿ8Ν‰¦μα1J$8b1ffc60-ba88-4d06-877b-2e4f598d34d6
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ÒΙΝÿÿÿÿÿ8Ύ‘¦μα1J$9d933cb2-b0f0-458a-b085-98bffacfe445
+~	java:S125#"<This block of commented-out lines of code should be removed.(‚η8¦Ρ¨μα1J$535340df-0462-4762-a167-90a63e6816e1
+m	java:S106)"+Replace this use of System.out by a logger.(τΗέΈ8Α‘¦μα1J$6ce8f654-2141-4014-b0a6-b7927868969a

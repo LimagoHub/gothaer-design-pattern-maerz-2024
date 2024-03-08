@@ -3,6 +3,7 @@ package main;
 import bank.AbstractBankNode;
 import bank.Konto;
 import bank.KontoGruppe;
+import bank.visitor.PrintVisitor;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,8 +29,9 @@ public class Main {
         e2.appendChild(e2_4);
 
         //travers(root);
-        root.print();
+        //root.print();
 
+        root.iterate(new PrintVisitor());
 //        for(var item: root){
 //            System.out.println(item);
 //        }

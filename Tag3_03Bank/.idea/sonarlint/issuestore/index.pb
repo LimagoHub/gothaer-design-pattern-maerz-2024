@@ -1,23 +1,23 @@
 
-O
-src/composite/AbstractNode.java,1\7\178b73a50f6e290ca479b01169f12a6149249f20
-G
-src/composite/Leaf.java,e\5\e5eda55c2699b55d76af429a8f48985427427560
-G
-src/composite/Node.java,1\a\1a1cf48f19dca0ac29475debdc599a69fd158a45
 B
 src/main/Main.java,f\e\fe03b4fd3afe162c6e01309b98a22588e093d274
-J
-src/bank/AbstractNode.java,6\f\6f93dbcd57e0caa5294e984d89b91660558718a2
-B
-src/bank/Leaf.java,5\a\5a57c9c20a06befb143dce4ac5e25a17d7d83bb0
-B
-src/bank/Node.java,e\2\e20db89aedeff9a636843566392609e1ba54d1af
 N
 src/bank/AbstractBankNode.java,2\a\2a1e9c37c8044b723b6b6cb5fa626a615d87f456
-F
-src/bank/BankNode.java,6\7\6726af4ef10d4658283d35c182f76ee7592eb611
 I
 src/bank/KontoGruppe.java,b\7\b75a4984d2f348eb81a54fc41f8a03079895c341
 C
 src/bank/Konto.java,a\0\a0741ef4b0318d9dc880689e89e2d2e89adf1972
+I
+src/bank/BankVisitor.java,5\2\52cb7ee49e57a9b0ce2761a047532b294b44de9e
+O
+src/bank/visto/BankVisitor.java,5\5\555c0128d1eab2d5b511b527213298243035e93f
+P
+ src/bank/vistor/BankVisitor.java,7\5\75c5b8364470d013ec04f213381f4a2b8504dbdf
+X
+(src/bank/vistor/AbstractBankVisitor.java,8\f\8ff6430e36d15c606349713c5a0272c290d5528d
+Q
+!src/bank/visitor/BankVisitor.java,0\7\070f6662a65437dc573e84e9f48e09cebe7a3665
+Y
+)src/bank/visitor/AbstractBankVisitor.java,d\6\d61bfc5585f35d9196cf009189f85298cb16846b
+R
+"src/bank/visitor/PrintVisitor.java,2\b\2ba5f802dacd26bfb3d66d695ab3f176ab2cdbb7
